@@ -9,4 +9,13 @@ export const Container = styled.div`
 `
 export const MenuList = styled.ul``
 
-export const MenuItem = styled.li``
+export const MenuItem = styled.li`
+	color: #ccc;
+	padding: 10px;
+	font-weight: 600;
+	font-size: 14px;
+	&:hover {
+		color: #fff;
+		cursor: pointer;
+	}
+`
