@@ -1,10 +1,14 @@
 import React from 'react'
-import { Container } from './style'
+import { Container, Title } from './style'
+import Item from './Item'
 
 const Friend = () => {
 	return (
 		<Container>
-			<div></div>
+			<Title>Friend Activity</Title>
+			<Item />
+			<Item />
+			<Item />
 		</Container>
 	)
 }
