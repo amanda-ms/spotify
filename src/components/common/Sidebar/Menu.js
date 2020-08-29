@@ -5,16 +5,16 @@ import { Icon } from '../'
 const Menu = () => {
 	return (
 		<MenuList>
-			<MenuItem>
-				<Icon />
+			<MenuItem active>
+				<Icon name="home" />
 				Home
 			</MenuItem>
 			<MenuItem>
-				<Icon />
+				<Icon name="search" />
 				Browse
 			</MenuItem>
 			<MenuItem>
-				<Icon />
+				<Icon name="lib" />
 				Radio
 			</MenuItem>
 		</MenuList>
